@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
     <link rel="stylesheet" href="styles.css">
- 
+     <style>
+      p {
+        background-color: green;
+        color: white;
+        font-size: 18px;
+      }
+     </style>
   </head>
 
   <!-- `div`: a red background, white text, a font size of 32px, center aligned, and bold
@@ -20,6 +26,6 @@ Does the `div` element have CSS added via the external method?
   <body>
     <div>Style me via the external method!</div>
     <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <button style="background-color: orange; font-size: 18px">Inline Method</button>
   </body>
 </html>
